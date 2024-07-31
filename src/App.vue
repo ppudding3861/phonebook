@@ -5,10 +5,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'App',
-};
+<script setup>
+import { createApp } from 'vue';
 </script>
 
 <style scoped>

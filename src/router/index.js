@@ -3,6 +3,7 @@ import Home from '../views/Home.vue';
 import AddContact from '../components/AddContact.vue';
 import ViewContacts from '../components/ViewContacts.vue';
 import TodoList from '../components/TodoList.vue';
+import NearSearch from '../components/NearSearch.vue';
 
 const routes = [
   {
@@ -27,6 +28,11 @@ const routes = [
         path: 'todo-list',
         name: 'TodoList',
         component: TodoList,
+      },
+      {
+        path: 'near-search',
+        name: 'NearSearch',
+        component: NearSearch,
       }
     ]
   }
